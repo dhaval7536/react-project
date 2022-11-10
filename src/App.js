@@ -27,7 +27,7 @@ const Auth = () => {
           <Route path='/verify-email' element={<VerifyEmail />} />
           <Route path='/forgot-password' element={<Forgot />} />
           <Route path='/profile' element={<Profile />} />
-          <Route path='/' element={<Profile />} />
+          <Route path='/' element={<Login />} />
         </Routes>
       </AuthProvider>
     </Router>
